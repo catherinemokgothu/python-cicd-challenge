@@ -6,8 +6,8 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      -uses: checkout@v2
-      -run: python hellp.py
+      - uses: checkout@v2
+      - run: python hellp.py
   build:
     needs: [test]
     runs-on: ubuntu-latest
